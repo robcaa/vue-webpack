@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700,800|Roboto+Slab:100,300,700');
+@import "variables";
+@import "colors";
+
+@import "bootstrap/bootstrap.scss";
+
+@import "fontawesome/fontawesome.scss";
+@import "fontawesome/solid.scss";
+@import "fontawesome/brands.scss";
+
+
+html,
+body {
+  height: 100%;
+}
+.page-container, .app-container {
+    flex: 1 0 auto;
+}
+.app-container {
+    height: 100%;
+}
+
+body {
+    font-family: 'Nunito', 'Courier New', Courier, monospace;
+
+}
